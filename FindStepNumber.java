@@ -19,7 +19,7 @@ public class FindStepNumber {
             }
             if (count >0 || arr.length==1) {
                 System.out.println(s + "-false");
-            } else if (count != ((arr.length) - 1) || count != (((arr.length) - 1) * -1)) {
+            } else {
                 System.out.println(s + "-true");
             }
 
